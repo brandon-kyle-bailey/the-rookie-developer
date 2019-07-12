@@ -1,5 +1,6 @@
-    nav {
-	float: right;
+nav > a {
+  display: flex;
+  justify-content: flex-end;
 }
 
 a {
