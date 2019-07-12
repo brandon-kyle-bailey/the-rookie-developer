@@ -1,5 +1,22 @@
-#main-title {
-	color: red;
-	font-family: Arial, Helvetica, sans-serif;
+    nav {
+	float: right;
 }
 
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#main-title {
+	color: grey;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+#section-1 {
+	height: 100vh;
+}
+
+footer {
+	display: block;
+}
