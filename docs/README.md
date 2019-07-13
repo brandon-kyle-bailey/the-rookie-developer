@@ -7,14 +7,14 @@ Finding a good starting point to contribute to open source is hard!
 The intention behind this project is to create an open source community driven platform that allows people to share and develop their skill and knowledge using a real world project.
 
 ---
-### Installation
+## Installation
 
 ### Linux
 ```sh
 $ git clone https://github.com/brandon-kyle-bailey/the-rookie-developer.git
 $ cd the-rookie-developer
-$ python3 -m venv venv
-$ . venv/bin/activate
+$ python3 -m virtualenv venv
+$ source venv/bin/activate
 $ pip install Flask
 $ cd app/
 $ export FLASK_APP=app.py
