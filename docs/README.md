@@ -37,13 +37,3 @@ $ flask run
 Day one of this project consisted of creating the initial repository structure, configuration of the `flask` backend server as well as producing the `landing`(home), `about` and `contact` pages.
 
 In terms of design choices and `UX/UI`, `materialize` css and js were chosen for their minimalistic and clean presentation.
-
-
-
-## Day One.
-
-Day one of this project consisted of creating the initial repository structure, configuration of the `flask` backend server as well as producing the `landing`(home), `about` and `contact` pages.
-
-In terms of design choices and `UX/UI`, `materialize` css and js were chosen for their minimalistic and clean presentation.
-
-
