@@ -7,22 +7,52 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
     <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>	
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-	<link rel="stylesheet" type="text/css" href="../static/css/style.css">    
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">	  
 </head>
 <body>
 
   <!-- navbar for webpage -->
   {% include "nav.html" %}
 
-	<br></br>
-	<div id='section-1'>
-		<h1 id='main-title'><a href='/'>The Rookie Developer Project</a></h1>		
-	</div>
+	<section class="valign-wrapper custom-section">
+    <div class="container valign-wrapper">
+      <div class="row">
+        <h2 class="center-align">
+          <a class="grey-text" href='/'>The Rookie Developer Project</a>
+        </h2>        
+      </div>
+      <div class="row center-align">
+        <button class="card-panel hoverable blue-grey">
+          <a class="white-text" href="#">Demo</a>
+        </button>
+        <button class="card-panel hoverable blue-grey">
+          <a class="white-text" href="#">Github</a>
+        </button>        
+      </div>
+    </div>  
+  </section>
 
-    <!-- footer of webpage -->
-    {% include "footer.html" %}
-
+  <section>
+    <div class="divider"></div>
+    <div class="section">
+      <div class="container">
+        <div class="row center-align">      
+          <h5>Who are we?</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>          
+        </div>
+      </div>
+    </div>
+  </section>
+    <section>
+      <!-- footer of webpage -->
+      {% include "footer.html" %}      
+    </section>
 </body>
 </html>
