@@ -10,7 +10,7 @@ The intention behind this project is to create an open source community driven p
 ## Installation
 
 ### Linux
-```sh
+```
 $ git clone https://github.com/brandon-kyle-bailey/the-rookie-developer.git
 $ cd the-rookie-developer
 $ python3 -m virtualenv venv
@@ -18,10 +18,11 @@ $ source venv/bin/activate
 $ pip install Flask
 $ cd app/
 $ export FLASK_APP=app.py
-$ python -m flask run
+$ export FLASK_ENV=development
+$ flask run
 ```
 ### Windows
-```sh
+```
 $ git clone https://github.com/brandon-kyle-bailey/the-rookie-developer.git
 $ cd the-rookie-developer
 $ py -3 -m venv venv
