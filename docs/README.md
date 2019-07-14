@@ -38,3 +38,10 @@ $ flask run
 Day one of this project consisted of creating the initial repository structure, configuration of the `flask` backend server as well as producing the `landing`(home), `about` and `contact` pages.
 
 In terms of design choices and `UX/UI`, `materialize` css and js were chosen for their minimalistic and clean presentation.
+
+## Day Two.
+
+Day two saw us address some of the issues created for the project and explore how to fork and make pull requests to help develop the project. 
+
+The tickets were mainly structural, things like decounting html in to seperate files for more scalability. 
+We also made some further design changes to the landing page by adding some more materialize css to make the page look more clean.
