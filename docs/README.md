@@ -46,3 +46,5 @@ Day two saw us address some of the issues created for the project and explore ho
 
 The tickets were mainly structural, things like decounting html in to seperate files for more scalability. 
 We also made some further design changes to the landing page by adding some more materialize css to make the page look more clean.
+
+---
