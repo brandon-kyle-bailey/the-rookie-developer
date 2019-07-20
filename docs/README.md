@@ -42,9 +42,17 @@ In terms of design choices and `UX/UI`, `materialize` css and js were chosen for
 
 ## Day Two.
 
-Day two saw us address some of the issues created for the project and explore how to fork and make pull requests to help develop the project. 
+Day two saw us address some of the issues created for the project and explore how to fork and make pull requests to help develop the project.
 
-The tickets were mainly structural, things like decounting html in to seperate files for more scalability. 
+The tickets were mainly structural, things like decounting html in to seperate files for more scalability.
 We also made some further design changes to the landing page by adding some more materialize css to make the page look more clean.
+
+## Day Three.
+
+On day three, we created a branch to work on producing a login form so that users can sign up to the site.
+
+We also changed some of the design color and added some more style to the landing page.
+
+We plan on migrating this project to DJango for future development as its easier to make user models as well as others.
 
 ---
