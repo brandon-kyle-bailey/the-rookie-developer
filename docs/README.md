@@ -56,3 +56,7 @@ We also changed some of the design color and added some more style to the landin
 We plan on migrating this project to DJango for future development as its easier to make user models as well as others.
 
 ---
+
+## Day Four.
+
+---
